@@ -470,8 +470,10 @@ foreach $i ( sort sort_as_wanted(@$lines) ) {
 	print "<input type=submit class=submit name=action value=\"$text{'save'}\">\n";
 	print "<input type=submit class=submit name=action value=\"$text{'delete'}\" ";
 	print "onClick=\"if (window.confirm('$sure $login ?')) { return true; } else { return false; }\">";
-	print "<br><br><font color=red>$exceeded</font></td><td><table border width=100%>\n";     
-	print "<tr $tb><td colspan=2 align=center><b>$login</b></td></tr>",
+	print "<br><br><font color=red>$exceeded</font></td><td><table border width=100%>\n"; 
+        # Fix the looping problem by correcting the type error (change "," to ";")    
+	# print "<tr $tb><td colspan=2 align=center><b>$login</b></td></tr>",
+        print "<tr $tb><td colspan=2 align=center><b>$login</b></td></tr>";
 	print "<tr><td><table>\n";
 	print "<tr><td nowrap><b>$text{'gecos'}</b></td><td>",
 	"<input name=gecos size=40 value=\"$gecos\"></td></tr>\n";

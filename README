@@ -1,0 +1,43 @@
+Pure-FTPd webmin module 0.55
+============================
+
+This is a webmin module for managing Pure-FTPd, virtual users 
+and monitor users sessions. This module is designed to work with 
+Pure-FTPd v 1.0.14 compiled with quotats, puredb, throttling,
+ftpwho and virtualchroot.
+
+./configure --with-quotas --with-ftpwho --with-puredb \
+--with-throttling --with-virtualchroot
+
+
+Use this module with caution as it is still in beta-test and has 
+not been tested on all plateforms and configuration.
+
+BeOS icons are from Matthew McClintock and are avalaible on 
+the Xicons <http://www.xicons.com>
+
+2002-12-01 Mike <info@lashampoo.com>
+
+
+
+Things to do in feature releases of this module
+===============================================
+
+- support others auth methods: MySQL, LDAP, System users...
+- more user friendly Pure-FTPd configuration page: special Pure-FTPd
+  fields forms instead of a single text edit form
+- more languages added (that's up to you guys!)
+- more feature on the monitor page: kick-off user based on the 
+  PID number, etc...
+- translated Help pages
+
+
+This module has been succesfully tested on:
+===========================================
+
+- Mac OS X (Jaguar) 10.2.2
+- Mac OS X Server (Jaguar) 10.2.2
+- Mandrake 8.2, 9.0
+- RedHat 7.2, 7.3, 8.0
+- RedHat Advanced Server 7.2
+- Debian Woody 3R01

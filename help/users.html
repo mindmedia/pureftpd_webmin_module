@@ -1,0 +1,22 @@
+<header>Virtual users database</header>
+
+<p>With this webmin panel ou can modify the Pure-FTPd users database 
+usually called <tt>/etc/pureftpd.passwd</tt> This users database allows 
+the server to have virtual users differents from the system accounts 
+users. Do verify that the -lpuredb:/etc/pureftpd.pdb option is set in your 
+Xinetd configuration. You can modify your Xinetd configuration using 
+the "Pure-FTPd configuration" panel of this module. And verify that 
+your Pure-FTPd program has been compiled with 
+<tt>./configure --with-puredb</tt> otherwise the Virtual users feature is 
+not avalaible through the Pure-FTPd server.</p>
+
+<p>To disable options, just leave blank fields and/or set the
+value to zero (0) if already set.</p>
+
+<p>Any changes you make will take effect immediately for new 
+FTP sessions.</p>
+
+<br>More info <a href="http://pureftpd.org/" target="_blank">http://pureftpd.org</a><br><br>
+
+<hr>
+

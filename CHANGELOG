@@ -1,0 +1,13 @@
+2002-12-15 ver 0.55 - Added a sort users preferences
+                    - Added a selective display users preferences
+2002-12-11 ver 0.54 - Added a german translation by Cengiz B. 
+2002-12-09 ver 0.53 - Fixed a very important bug in pure-conf.cgi 
+                    that causes Inetd services do definitively stop
+                    because of non Unix line-endings in conf files
+                    - Remove debug code in pure-users.cgi
+2002-12-08 ver 0.52 Fixed a bug in pure-users.cgi that causes
+                    new users not adding or with false values
+2002-12-06 ver 0.51 Fixed error in the module configuration some
+                    values were not present for modifications while
+                    they were already used in the New User form
+2002-12-01 ver 0.50 First beta-release of Pure-FTPd module

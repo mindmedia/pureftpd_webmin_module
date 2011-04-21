@@ -1,0 +1,135 @@
+index_title=Pure-FTPd Server
+index_mail=Module written by <NOBR><A HREF=http://lashampoo.net>La Shampoo</A></NOBR>              
+index_eftpd=The Pure-FTPd server $1 could not be found on your system. Maybe it is not installed, or your <a href='$2'>FTP Server module configuration</a> is incorrect.
+index_return=Pure-FTPd server options
+index_apply=Apply Changes
+index_restartinetd=Click this button to send a SIGHUP signal to restart the inetd process.
+index_restartpureftpd=Click this button to send a SIGHUP signal to restart the Pure-FTPd process.
+index_restarted=Server Pure-FTPd has been restarted
+
+pure-conf_header=Inetd configuration file
+pure-conf_ftpwelcome=Inetd file
+pure-conf_filecontents=File inetd contents
+pure-conf_title=Pure-FTPd configuration
+pure-conf_err=Failed to save configuration
+
+pure-options_title=Module configuration
+
+pure-users_header=Pure-FTPd users configuration
+pure-users_ftpwelcome=Pure-FTPd users configuration
+pure-users_conf=The binary file pure-pw of Pure-FTPd server $1 could not be found on your system. Maybe it is not installed, or your <a href='$2'>FTP Server module configuration</a> is incorrect.
+pure-users_title=Pure-FTPd users
+pure-users_err=Failed to save Pure-FTPd users configuration
+pure-users_deleteOK=User %s deleted
+pure-users_notdelete=User %s not deleted for the following reason:
+pure-users_modifyOK=User %s modified
+pure-users_notmodify=User %s not modified for the following reason:
+pure-users_passwdOK=%s's password changed
+pure-users_notpasswd=%s's password not modified<br>for the following reason:
+pure-users_passwdmissing=the password is missing
+pure-users_addOK=User %s added
+pure-users_notadd=User %s not added for the following reason:
+pure-users_NEWUSER=New user
+pure-users_areyousure=Do you really want to delete account
+pure-users_homemissing=home directory is missing
+pure-users_uidmissing=uid is missing
+pure-users_gidmissing=gid is missing
+pure-users_loginmissing=login is missing
+pure-users_defaultsettings=Change default settings
+pure-users_quotasconf=The binary file pure-quotacheck of Pure-FTPd server $1 could not be found on your system. Maybe it is not installed, or your <a href='$2'>FTP Server module configuration</a> is incorrect.
+pure-users_quotasupdate=Update quotas
+pure-users_quotasnone=No quotas counted for the moment. Or the user has not logged in since the opening of his account, or the quotas has been set after his last connection. To count items from the existing items in the home directory, use "Update quotas"
+
+
+
+pure-users_quotasOK=User %s quotas updated
+pure-users_notquotas=User %s quotas<br>not updated for the following reason:
+pure-users_quotaexceeded=This user has exceeded his quotas
+
+login=Login:
+gecos=Full Name:
+home=Home directory
+upload_band=Upload bandwidth:
+download_band=Download bandwidth:
+upload_ratio=Upload ratio:
+download_ratio=Download ratio:
+max_files=Max files:
+max_size=Max size:
+Mb=Mb
+speed=Kb/s
+items=items
+allow_local_IP=Allowed local IPs:
+deny_local_IP=Deny local IPs:
+allow_client_IP=Allowed Client IPs:
+deny_client_IP=Deny Client IPs:
+time=Time restriction:
+max_sessions=Simultaneous sessions:
+chroot=Chroot:
+Yes=Yes
+No=No
+Whatever=Whatever
+passwd=Password:
+add=Add this user
+uid=uid
+gid=gid
+change=don't change
+file_quotas=Files quotas
+size_quotas=Size quotas
+
+pure-monitor_header=Pure-FTPd Monitor
+pure-monitor_title=Pure-FTPd Monitor
+pure-monitor_conf=The binary file pure-ftpwho of Pure-FTPd server $1 could not be found on your system. Maybe it is not installed, or your <a href='$2'>FTP Server module configuration</a> is incorrect.
+pure-monitor_nothing=No user connected<br>with Pure-FTPd at this moment
+pure-monitor_one=There is one user connected<br>with Pure-FTPd at this moment
+pure-monitor_many=There are %s users connected<br>with Pure-FTPd at this moment
+pure-monitor_Uploading=Uploading
+pure-monitor_Downloading=Downloading
+pure-monitor_Idle=Idle
+pure-monitor_pid=PID #
+pure-monitor_acct=Account
+pure-monitor_time=Time
+pure-monitor_state=State
+pure-monitor_file=File name
+pure-monitor_peer=Remote host
+pure-monitor_local=Local host:port
+pure-monitor_current=Current
+pure-monitor_total=Kbytes
+pure-monitor_speed=Kb/s
+pure-monitor_percent=Percent
+pure-monitor_bandwidth=Bandwidth
+
+conf_border1=Table border 1
+conf_border2=Table border 2
+conf_bgcolor1=Background color 1
+conf_bgcolor2=Background color 2
+conf_bgcolor3=Background color 3
+conf_spacing1=Cell spacing 1
+conf_padding1=Cell padding 1
+conf_spacing2=Cell spacing 2
+conf_padding2=Cell padding 2
+
+
+pure-users_displaywarning=<font color=red size=+2><b>Warning! Display criterias are set!</b></font><br><a href='$1'>click here</a> to modify criterias.
+pure-users_displaynone=Warning! Your criterias are <b>too discriminating</b> and no account can match them! Change them to display skipped accounts.
+pure-users_display=Display only accounts sorted by their:
+pure-users_displayagain=Refresh this page with the new settings
+pure-users_displayresult=<b>$1</b> accounts displayed on this page, <b>$2</b> accounts skipped
+pure-users_displaycriterias=Criterias for displaying accounts on this page:
+
+pure-users_criteriaregexp=Fields Login, Full Name and Home Directory<br>accept Perl regular expressions:
+pure-users_criterialogin=Login
+pure-users_criteriagecos=Full name
+pure-users_criteriahome=Home Directory
+pure-users_criteriavalues=The following fields must be filled<br>with 000-000 values (standing for begin-end):
+pure-users_criteriauid=UID
+pure-users_criteriagid=GID
+pure-users_criteriaupband=Upload bandwidth
+pure-users_criteriadwband=Download bandwidth
+pure-users_criteriaupratio=Upload ratio
+pure-users_criteriadwratio=Download ratio
+pure-users_criteriamax_files=Max files
+pure-users_criteriamax_size=Max size
+pure-users_criteriaper_files=Files quota percent reached
+pure-users_criteriaper_size=Size quota percent reached
+pure-users_criteriamax_sessions=Simultaneous sessions
+pure-users_criteriachroot=Only chrooted accounts

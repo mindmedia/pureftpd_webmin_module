@@ -1,0 +1,37 @@
+<header>Pure-FTPd Server</header>
+
+<p><i>This module allows you to configure the Pure-FTPd server installed 
+on your system, set the virtual users' rights and monitor ftp sessions.</i></p>
+
+<p>With this webmin module ou can modify the Pure-FTPd users database 
+usually called <tt>/etc/pureftpd.passwd</tt> This users database allows 
+the server to have virtual users differents from the system accounts 
+users. Do verify that the -lpuredb:/etc/pureftpd.pdb option is set in your 
+Xinetd configuration. You can modify your Xinetd configuration using 
+the "Pure-FTPd configuration" panel of this module. And verify that 
+your Pure-FTPd program has been compiled with 
+<tt>./configure --with-puredb</tt> otherwise the Virtual users feature is 
+not avalaible through the Pure-FTPd server.</p>
+
+<p>If not using the Virtual users feature, users with accounts on your 
+system can login to the FTP server and access their files using client 
+programs. You can also setup a public FTP server to which 
+anonymous users are allowed read-only or read-write access to a 
+limited subset of files on your system.</p>
+
+<p>The main page of this module shows a table of icons, one for each 
+category of configurable options. If your system runs Pure-FTPd from 
+<tt>Xinetd</tt> as most do, any changes you make will take effect 
+immediately for new FTP sessions. There is a button at the bottom 
+of the page allowing you to restart Xinetd after changing the Xinetd 
+configuration.</p>
+
+<p>The Pure-FTPd monitor panel only works if you had compiled your 
+Pure-FTPd program with <tt>./configure --with-ftpwho</tt> as it uses 
+the pure-ftpwho script to display the user's sessions.</p>
+
+<br>More info <a href="http://pureftpd.org/" target="_blank">
+http://pureftpd.org</a><br><br>
+
+<hr>
+

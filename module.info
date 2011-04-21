@@ -1,0 +1,7 @@
+name=Pure-FTPd
+desc=Pure-FTPd server
+desc_en=Pure-FTPd server
+desc_de=Pure-FTPd server
+desc_fr=Serveur Pure-FTPd
+category=servers
+version=0.55

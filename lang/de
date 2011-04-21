@@ -1,0 +1,134 @@
+index_title=Pure-FTPd Server
+index_mail=Modul geschrieben von <NOBR><A HREF=http://lashampoo.net>La Shampoo</A></NOBR>              
+index_eftpd=Der Pure-FTPd Server konnte nicht auf Ihrem System gefunden werden. Entweder er ist nicht installiert oder die <a href='$2'>FTP Server Modul Konfiguration</a> ist nicht korrekt.
+index_return=Pure-FTPd Server Optionen
+index_apply=Aenderungen uebernehmen
+index_restartinetd=Klicken Sie auf diesen Button um ein SIGHUP Signal zu senden und den inetd Prozess neu zu starten.
+index_restartpureftpd=Klicken Sie auf diesen Button um ein SIGHUP Signal zu senden und den Pure-FTPd Prozess neu zu starten.
+index_restarted=Der Server Pure-FTPd wurde neu gestartet
+
+pure-conf_header=Inetd Konfigurations Datei
+pure-conf_ftpwelcome=Inetd Datei
+pure-conf_filecontents=Inhalte der Inetd Datei
+pure-conf_title=Pure-FTPd Konfiguration
+pure-conf_err=Konfiguration konnte nicht gespeichert werden
+
+pure-options_title=Modul Konfiguration
+
+pure-users_header=Pure-FTPd Benutzer Konfiguration
+pure-users_ftpwelcome=Pure-FTPd Benutzer Konfiguration
+pure-users_conf=Die Binaer Datei pure-pw des Pure-FTPd Servers $1 konnte auf Ihrem System nicht gefunden werden. Entweder sie ist nicht installiert oder Ihre <a href='$2'>FTP Server Modul Konfiguration</a> ist nicht korrekt.
+pure-users_title=Pure-FTPd Benutzer
+pure-users_err=Pure-FTPd Benutzer Konfiguration konnte nicht gespeichert werden
+pure-users_deleteOK=Benutzer %s geloescht
+pure-users_notdelete=Benutzer %s wurde aus folgendem Grund nicht geloescht:
+pure-users_modifyOK=Benutzer %s modifiziert
+pure-users_notmodify=Benutzer %s wurde aus folgendem Grund nicht modifiziert:
+pure-users_passwdOK=%s's Passwort geändert
+pure-users_notpasswd=%s's Passwort wurde <br>aus folgendem Grund nicht geaendert:
+pure-users_passwdmissing=das Passwort fehlt
+pure-users_addOK=Benutzer %s hinzugefuegt
+pure-users_notadd=Benutzer %s wurde aus folgendem Grund nicht hinzugefuegt:
+pure-users_NEWUSER=Neuer Benutzer
+pure-users_areyousure=Wollen Sie den Account wirklich loeschen
+pure-users_homemissing=Heimverzeichnis fehlt
+pure-users_uidmissing=uid fehlt
+pure-users_gidmissing=gid fehlt
+pure-users_loginmissing=Login fehlt
+pure-users_defaultsettings=Standard Einstellungen aendern
+pure-users_quotasconf=Die Binaerdatei pure-quotacheck vom Pure-FTPd server $1 konnte nicht auf Ihrem System gefunden werden. Entweder sie ist nicht installiert oder Ihre <a href='$2'>FTP Server Module Konfiguration</a> ist nicht korrekt.
+pure-users_quotasupdate=Quotas erneuern
+pure-users_quotasnone=Momentan keine Quotas gezaehlt. Entweder hat der Benutzer sich seit Eroeffnung seines Zugangs nicht eingeloggt oder die Quotas wurden nach seiner letzten Verbindung eingerichtet. Um Teile des aktuellen Inhalts seines Heimverzeichniss
+es mitzurechnen benutzen Sie "Quotas erneuern"
+
+pure-users_quotasOK=Benutzer %s Quotas erneuert
+pure-users_notquotas=Benutzer %s Quotas<br>aus folgendem Grund nicht erneuert:
+pure-users_quotaexceeded=Dieser Benutzer hat seine Quotas ueberschritten
+
+login=Login:
+gecos=Voller Name:
+home=Heimverzeichnis
+upload_band=Upload Bandbreite:
+download_band=Download Bandbreite:
+upload_ratio=Upload Ratio:
+download_ratio=Download Ratio:
+max_files=Max Dateien:
+max_size=Max Groesse:
+Mb=Mb
+speed=Kb/s
+items=Dateien
+allow_local_IP=Erlaube lokale IPs:
+deny_local_IP=Verbiete lokale IPs:
+allow_client_IP=Erlaube Client IPs:
+deny_client_IP=Verbiete Client IPs:
+time=Zeitbegrenzung:
+max_sessions=Gleichzeitige Verbindungen:
+chroot=Chroot:
+Yes=Ja
+No=Nein
+Whatever=Whatever
+passwd=Passwort:
+add=Diesen Benutzer hinzufuegen
+uid=uid
+gid=gid
+change=nicht aendern
+file_quotas=Datei Quotas
+size_quotas=Groessen Quotas
+
+pure-monitor_header=Pure-FTPd Monitor
+pure-monitor_title=Pure-FTPd Monitor
+pure-monitor_conf=Die Binaerdatei pure-ftpwho vom Pure-FTPd server $1 konnte nicht auf Ihrem System gefunden werden. Entweder sie ist nicht installiert oder Ihre <a href='$2'>FTP Server Module Konfiguration</a> ist nicht korrekt. 
+pure-monitor_nothing=Momentan kein Benutzer <br>mit Pure-FTPd verbunden
+pure-monitor_one=Momentan ein Benutzer<br>mit Pure-FTPd verbunden
+pure-monitor_many=There are %s users connected<br>with Pure-FTPd at this moment
+pure-monitor_Uploading=Am Hochladen
+pure-monitor_Downloading=Am Herunterladen
+pure-monitor_Idle=Idle
+pure-monitor_pid=PID #
+pure-monitor_acct=Zugang
+pure-monitor_time=Zeit
+pure-monitor_state=Zustand
+pure-monitor_file=Dateiname
+pure-monitor_peer=Remote Host
+pure-monitor_local=Lokaler Host:Port
+pure-monitor_current=Aktuell
+pure-monitor_total=Kbytes
+pure-monitor_speed=Kb/s
+pure-monitor_percent=Prozent
+pure-monitor_bandwidth=Bandbreite
+
+conf_border1=Tabellenrand 1
+conf_border2=Tabellenrand 2
+conf_bgcolor1=Hintergrundfarbe 1
+conf_bgcolor2=Hintergrundfarbe 2
+conf_bgcolor3=Hintergrundfarbe 3
+conf_spacing1=Zellenabstand 1
+conf_padding1=Zellenabstand 1
+conf_spacing2=Zellenabstand 2
+conf_padding2=Zellenabstand 2
+
+
+pure-users_displaywarning=<font color=red size=+2><b>Warning! Display criterias are set!</b></font><br><a href='$1'>click here</a> to modify criterias.
+pure-users_displaynone=Warning! Your criterias are <b>too discriminating</b> and no account can match them! Change them to display skipped accounts.
+pure-users_display=Display only accounts sorted by their:
+pure-users_displayagain=Refresh this page with the new settings
+pure-users_displayresult=<b>$1</b> accounts displayed on this page, <b>$2</b> accounts skipped
+pure-users_displaycriterias=Criterias for displaying accounts on this page:
+
+pure-users_criteriaregexp=Fields Login, Full Name and Home Directory<br>accept Perl regular expressions:
+pure-users_criterialogin=Login
+pure-users_criteriagecos=Full name
+pure-users_criteriahome=Home Directory
+pure-users_criteriavalues=The following fields must be filled<br>with 000-000 values (standing for begin-end):
+pure-users_criteriauid=UID
+pure-users_criteriagid=GID
+pure-users_criteriaupband=Upload bandwidth
+pure-users_criteriadwband=Download bandwidth
+pure-users_criteriaupratio=Upload ratio
+pure-users_criteriadwratio=Download ratio
+pure-users_criteriamax_files=Max files
+pure-users_criteriamax_size=Max size
+pure-users_criteriaper_files=Files quota percent reached
+pure-users_criteriaper_size=Size quota percent reached
+pure-users_criteriamax_sessions=Simultaneous sessions
+pure-users_criteriachroot=Only chrooted accounts
